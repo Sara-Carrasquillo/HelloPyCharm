@@ -11,7 +11,7 @@ __version__ = "0.1.0"
 __author__  = "Sara Carrasquillo"
 
 # Contact email for issues or pull requests; useful if you’re publishing publicly.
-__email__   = "saracarrasquillo007@gmail.com"
+__email__   = "SaraCarrasquillo007@gmail.com"
 
 # License declaration for open-source clarity and legal compliance.
 __license__ = "MIT"
