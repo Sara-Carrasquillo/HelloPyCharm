@@ -27,7 +27,7 @@ def main():
         elif level == 3:
             python_advanced()
         elif level == 4:
-            print("Exiting the practice application. Goodbye!")
+            print("Exiting the practice application. Bye bye!")
             break
         else:
             print("Invalid choice. Please select a number between 1 and 4.")
