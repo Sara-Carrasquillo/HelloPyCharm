@@ -1,0 +1,2 @@
+This is an intermediate Python example.
+We use context managers for safe file I/O.
