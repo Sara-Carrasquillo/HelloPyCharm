@@ -13,7 +13,7 @@ __author__  = "Sara Carrasquillo"
 # Contact email for issues or pull requests; useful if you’re publishing publicly.
 __email__   = "SaraCarrasquillo007@gmail.com"
 
-# License declaration for open-source clarity and legal compliance.
+# License example declaration for open-source clarity and legal compliance.
 __license__ = "MIT"
 
 # Importing logging to configure package logging without imposing handlers on users.
