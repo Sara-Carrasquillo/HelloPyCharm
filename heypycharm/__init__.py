@@ -19,7 +19,7 @@ __license__ = "MIT"
 # Importing logging to configure package logging without imposing handlers on users.
 import logging
 
-# Attach a NullHandler so library consumers don’t get “No handler found” warnings by default.
+# NullHandler for library consumers don’t get “No handler found” warnings by default.
 logging.getLogger(__name__).addHandler(logging.NullHandler())
 
 # --- Public API Exports ---
@@ -41,5 +41,5 @@ __all__ = [
 ]
 
 # --- !Avoid Heavy Imports! ---
-# Do NOT import requests, numpy, pandas, tkinter, flask, etc. in __init__.py.
-# Those modules belong in their respective submodules to prevent slow import times and unnecessary dependencies.
+# Do NOT import requests ex. numpy, pandas, tkinter, flask, etc. in __init__.py.
+# Prevents slow import times and unnecessary dependencies.
